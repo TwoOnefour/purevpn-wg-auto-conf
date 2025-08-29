@@ -3,7 +3,7 @@
 
 不保证接口变动后的可用性，在仓库上传的时候是可用的
 
-默认为香港区域，需要其他区域请自行抓包
+默认为香港区域，需要其他区域请自行查看 `region.json` 修改环境变量 `PUREVPN_COUNTRY_SLUG` 和 `PUREVPN_CITY_ID`
 
 若遇到无法获取的情况，有可能是ip太脏触发了cloudflare的风控
 

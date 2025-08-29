@@ -1,0 +1,5857 @@
+{
+    "status": true,
+    "message": "Configuration Countires and Cities fetch successfully.",
+    "body": [
+        {
+            "name": "United States",
+            "iso_code": "US",
+            "popularity": 0,
+            "feature": [
+                "OVPN_OBF",
+                "QR",
+                "PF"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Miami",
+                    "iso_code": "US",
+                    "countryName": "United States",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 7040,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                },
+                {
+                    "name": "Phoenix",
+                    "iso_code": "US",
+                    "countryName": "United States",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 7190,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                },
+                {
+                    "name": "Los Angeles",
+                    "iso_code": "US",
+                    "countryName": "United States",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR",
+                        "PF"
+                    ],
+                    "id": 7344,
+                    "protocols": [
+                        "IKEV",
+                        "TCP",
+                        "UDP",
+                        "WireGuard",
+                        "IPSEC"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "SmartConnectAutomatic",
+                                "SmartConnectPaid"
+                            ],
+                            "protocol": "IKEV"
+                        },
+                        {
+                            "tags": [
+                                "SmartConnectAutomatic",
+                                "SmartConnectPaid"
+                            ],
+                            "protocol": "IPSEC"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chicago",
+                    "iso_code": "US",
+                    "countryName": "United States",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 7904,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                },
+                {
+                    "name": "Newark",
+                    "iso_code": "US",
+                    "countryName": "United States",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 8643,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                },
+                {
+                    "name": "New York",
+                    "iso_code": "US",
+                    "countryName": "United States",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR",
+                        "PF"
+                    ],
+                    "id": 8778,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "IKEV"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "IPSEC"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "TCP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID",
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "IKEV"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "IPSEC"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "TCP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID",
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "SmartConnectAutomatic",
+                                "SmartConnectPaid"
+                            ],
+                            "protocol": "IKEV"
+                        },
+                        {
+                            "tags": [
+                                "SmartConnectAutomatic",
+                                "SmartConnectPaid"
+                            ],
+                            "protocol": "IPSEC"
+                        },
+                        {
+                            "tags": [
+                                "SmartConnectAutomatic",
+                                "SmartConnectPaid"
+                            ],
+                            "protocol": "TCP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "SmartConnectAutomatic",
+                                "SmartConnectPaid"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                },
+                {
+                    "name": "Houston",
+                    "iso_code": "US",
+                    "countryName": "United States",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 9259,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                },
+                {
+                    "name": "Atlanta",
+                    "iso_code": "US",
+                    "countryName": "United States",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 16158,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                },
+                {
+                    "name": "Washington DC",
+                    "iso_code": "US",
+                    "countryName": "United States",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 25099,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ashburn",
+                    "iso_code": "US",
+                    "countryName": "United States",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 26001,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                },
+                {
+                    "name": "San Francisco",
+                    "iso_code": "US",
+                    "countryName": "United States",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 26002,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                },
+                {
+                    "name": "Seattle",
+                    "iso_code": "US",
+                    "countryName": "United States",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR",
+                        "PF"
+                    ],
+                    "id": 26021,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "IKEV"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "IPSEC"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "TCP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID",
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "IKEV"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "IPSEC"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "TCP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID",
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                },
+                {
+                    "name": "Salt Lake City",
+                    "iso_code": "US",
+                    "countryName": "United States",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 26024,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_HYBRID"
+                    ],
+                    "protocol": "IKEV"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID"
+                    ],
+                    "protocol": "IPSEC"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID"
+                    ],
+                    "protocol": "TCP"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID",
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "SmartConnectAutomatic",
+                        "SmartConnectPaid"
+                    ],
+                    "protocol": "IKEV"
+                },
+                {
+                    "tags": [
+                        "SmartConnectAutomatic",
+                        "SmartConnectPaid"
+                    ],
+                    "protocol": "IPSEC"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "United Kingdom",
+            "iso_code": "GB",
+            "popularity": 1,
+            "feature": [
+                "OVPN_OBF",
+                "QR",
+                "PF"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "London",
+                    "iso_code": "GB",
+                    "countryName": "United Kingdom",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR",
+                        "PF"
+                    ],
+                    "id": 3147,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                },
+                {
+                    "name": "Manchester",
+                    "iso_code": "GB",
+                    "countryName": "United Kingdom",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 4218,
+                    "protocols": [
+                        "IPSEC",
+                        "IKEV",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "SmartConnectNatted",
+                                "SmartConnectPaid"
+                            ],
+                            "protocol": "IPSEC"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Australia",
+            "iso_code": "AU",
+            "popularity": 2,
+            "feature": [
+                "OVPN_OBF",
+                "QR",
+                "PF"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Sydney",
+                    "iso_code": "AU",
+                    "countryName": "Australia",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR",
+                        "PF"
+                    ],
+                    "id": 65,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                },
+                {
+                    "name": "Perth",
+                    "iso_code": "AU",
+                    "countryName": "Australia",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 72,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Germany",
+            "iso_code": "DE",
+            "popularity": 3,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR",
+                "PF"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Frankfurt",
+                    "iso_code": "DE",
+                    "countryName": "Germany",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR",
+                        "PF"
+                    ],
+                    "id": 2762,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Canada",
+            "iso_code": "CA",
+            "popularity": 4,
+            "feature": [
+                "OVPN_OBF",
+                "QR",
+                "PF"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Toronto",
+                    "iso_code": "CA",
+                    "countryName": "Canada",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR",
+                        "PF"
+                    ],
+                    "id": 22,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Netherlands",
+            "iso_code": "NL",
+            "popularity": 5,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR",
+                "PF"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Amsterdam",
+                    "iso_code": "NL",
+                    "countryName": "Netherlands",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR",
+                        "PF"
+                    ],
+                    "id": 2902,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "IKEV"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "IPSEC"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "TCP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID",
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID",
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_HYBRID"
+                    ],
+                    "protocol": "IKEV"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID"
+                    ],
+                    "protocol": "IPSEC"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID"
+                    ],
+                    "protocol": "TCP"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID",
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID",
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Hong Kong (SAR)",
+            "iso_code": "HK",
+            "popularity": 6,
+            "feature": [
+                "OVPN_OBF",
+                "QR",
+                "PF"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Hong Kong",
+                    "iso_code": "HK",
+                    "countryName": "Hong Kong (SAR)",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR",
+                        "PF"
+                    ],
+                    "id": 4300,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Belgium",
+            "iso_code": "BE",
+            "popularity": 8,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR",
+                "PF"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Brussels",
+                    "iso_code": "BE",
+                    "countryName": "Belgium",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR",
+                        "PF"
+                    ],
+                    "id": 173,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "France",
+            "iso_code": "FR",
+            "popularity": 9,
+            "feature": [
+                "OVPN_OBF",
+                "QR",
+                "PF"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Paris",
+                    "iso_code": "FR",
+                    "countryName": "France",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR",
+                        "PF"
+                    ],
+                    "id": 2753,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Sweden",
+            "iso_code": "SE",
+            "popularity": 10,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR",
+                "PF"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Stockholm",
+                    "iso_code": "SE",
+                    "countryName": "Sweden",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR",
+                        "PF"
+                    ],
+                    "id": 3005,
+                    "protocols": [
+                        "UDP",
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Japan",
+            "iso_code": "JP",
+            "popularity": 11,
+            "feature": [
+                "OVPN_OBF",
+                "QR",
+                "PF"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Tokyo",
+                    "iso_code": "JP",
+                    "countryName": "Japan",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR",
+                        "PF"
+                    ],
+                    "id": 993,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "IKEV"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "IPSEC"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "TCP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID",
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "IKEV"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "IPSEC"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "TCP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID",
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_HYBRID"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_HYBRID"
+                    ],
+                    "protocol": "IKEV"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID"
+                    ],
+                    "protocol": "IPSEC"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID"
+                    ],
+                    "protocol": "TCP"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID",
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID"
+                    ],
+                    "protocol": "IKEV"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID"
+                    ],
+                    "protocol": "IPSEC"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID"
+                    ],
+                    "protocol": "TCP"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID",
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_HYBRID"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Singapore",
+            "iso_code": "SG",
+            "popularity": 12,
+            "feature": [
+                "OVPN_OBF",
+                "QR",
+                "PF"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Singapore",
+                    "iso_code": "SG",
+                    "countryName": "Singapore",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR",
+                        "PF"
+                    ],
+                    "id": 5459,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Italy",
+            "iso_code": "IT",
+            "popularity": 13,
+            "feature": [
+                "OVPN_OBF",
+                "QR",
+                "PF"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Milano",
+                    "iso_code": "IT",
+                    "countryName": "Italy",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR",
+                        "PF"
+                    ],
+                    "id": 3124,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Ireland",
+            "iso_code": "IE",
+            "popularity": 14,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Dublin",
+                    "iso_code": "IE",
+                    "countryName": "Ireland",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 713,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Luxembourg",
+            "iso_code": "LU",
+            "popularity": 15,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Luxembourg",
+                    "iso_code": "LU",
+                    "countryName": "Luxembourg",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 2864,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "India",
+            "iso_code": "IN",
+            "popularity": 16,
+            "feature": [
+                "OVPN_OBF",
+                "QR",
+                "PF"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Mumbai",
+                    "iso_code": "IN",
+                    "countryName": "India",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR",
+                        "PF"
+                    ],
+                    "id": 2797,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Austria",
+            "iso_code": "AT",
+            "popularity": 17,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Vienna",
+                    "iso_code": "AT",
+                    "countryName": "Austria",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 2387,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Denmark",
+            "iso_code": "DK",
+            "popularity": 18,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Copenhagen",
+                    "iso_code": "DK",
+                    "countryName": "Denmark",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 5197,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Norway",
+            "iso_code": "NO",
+            "popularity": 19,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Oslo",
+                    "iso_code": "NO",
+                    "countryName": "Norway",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 2917,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Romania",
+            "iso_code": "RO",
+            "popularity": 20,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Bucharest",
+                    "iso_code": "RO",
+                    "countryName": "Romania",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 1290,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Russia",
+            "iso_code": "RU",
+            "popularity": 21,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Moscow",
+                    "iso_code": "RU",
+                    "countryName": "Russia",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 96,
+                    "protocols": [
+                        "IPSEC",
+                        "IKEV",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Poland",
+            "iso_code": "PL",
+            "popularity": 22,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Warsaw",
+                    "iso_code": "PL",
+                    "countryName": "Poland",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 3431,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Czech Republic",
+            "iso_code": "CZ",
+            "popularity": 23,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Prague",
+                    "iso_code": "CZ",
+                    "countryName": "Czech Republic",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 370,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Finland",
+            "iso_code": "FI",
+            "popularity": 24,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Helsinki",
+                    "iso_code": "FI",
+                    "countryName": "Finland",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 2748,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Spain",
+            "iso_code": "ES",
+            "popularity": 25,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Madrid",
+                    "iso_code": "ES",
+                    "countryName": "Spain",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 530,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Switzerland",
+            "iso_code": "CH",
+            "popularity": 26,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Zurich",
+                    "iso_code": "CH",
+                    "countryName": "Switzerland",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 3021,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Latvia",
+            "iso_code": "LV",
+            "popularity": 30,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Riga",
+                    "iso_code": "LV",
+                    "countryName": "Latvia",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 1044,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Turkey",
+            "iso_code": "TR",
+            "popularity": 32,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR",
+                "PF"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Istanbul",
+                    "iso_code": "TR",
+                    "countryName": "Turkey",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR",
+                        "PF"
+                    ],
+                    "id": 1385,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Lithuania",
+            "iso_code": "LT",
+            "popularity": 33,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Vilnius",
+                    "iso_code": "LT",
+                    "countryName": "Lithuania",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 2863,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Greece",
+            "iso_code": "GR",
+            "popularity": 34,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Athens",
+                    "iso_code": "GR",
+                    "countryName": "Greece",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 666,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Estonia",
+            "iso_code": "EE",
+            "popularity": 35,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Tallinn",
+                    "iso_code": "EE",
+                    "countryName": "Estonia",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 2746,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Bulgaria",
+            "iso_code": "BG",
+            "popularity": 37,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Sofia",
+                    "iso_code": "BG",
+                    "countryName": "Bulgaria",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 189,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Slovakia",
+            "iso_code": "SK",
+            "popularity": 38,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Bratislava",
+                    "iso_code": "SK",
+                    "countryName": "Slovakia",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 1539,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Brazil",
+            "iso_code": "BR",
+            "popularity": 39,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Sao Paulo",
+                    "iso_code": "BR",
+                    "countryName": "Brazil",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 44,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "South Africa",
+            "iso_code": "ZA",
+            "popularity": 40,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Johannesburg",
+                    "iso_code": "ZA",
+                    "countryName": "South Africa",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 2946,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Hungary",
+            "iso_code": "HU",
+            "popularity": 42,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Budapest",
+                    "iso_code": "HU",
+                    "countryName": "Hungary",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 701,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "South Korea",
+            "iso_code": "KR",
+            "popularity": 43,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Seoul",
+                    "iso_code": "KR",
+                    "countryName": "South Korea",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 4865,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Nigeria",
+            "iso_code": "NG",
+            "popularity": 45,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Lagos",
+                    "iso_code": "NG",
+                    "countryName": "Nigeria",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 1145,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Moldova",
+            "iso_code": "MD",
+            "popularity": 46,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Chisinau",
+                    "iso_code": "MD",
+                    "countryName": "Moldova",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 1047,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Albania",
+            "iso_code": "AL",
+            "popularity": 49,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Tirana",
+                    "iso_code": "AL",
+                    "countryName": "Albania",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 2335,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "China",
+            "iso_code": "CN",
+            "popularity": 53,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Beijing",
+                    "iso_code": "CN",
+                    "countryName": "China",
+                    "feature": [],
+                    "id": 265,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Vietnam",
+            "iso_code": "VN",
+            "popularity": 54,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Hanoi",
+                    "iso_code": "VN",
+                    "countryName": "Vietnam",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 3062,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Afghanistan",
+            "iso_code": "AF",
+            "popularity": 55,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Kabul",
+                    "iso_code": "AF",
+                    "countryName": "Afghanistan",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 2334,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Algeria",
+            "iso_code": "DZ",
+            "popularity": 56,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Algiers",
+                    "iso_code": "DZ",
+                    "countryName": "Algeria",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 2336,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Angola",
+            "iso_code": "AO",
+            "popularity": 59,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Benguela",
+                    "iso_code": "AO",
+                    "countryName": "Angola",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 6228,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Argentina",
+            "iso_code": "AR",
+            "popularity": 63,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Buenos Aires",
+                    "iso_code": "AR",
+                    "countryName": "Argentina",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 4091,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Aruba",
+            "iso_code": "AW",
+            "popularity": 65,
+            "feature": [
+                "OVPN_OBF",
+                "QR",
+                "TB"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Oranjestad",
+                    "iso_code": "AW",
+                    "countryName": "Aruba",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR",
+                        "TB"
+                    ],
+                    "id": 2355,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "UDP",
+                        "WireGuard",
+                        "TCP"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Bahamas",
+            "iso_code": "BS",
+            "popularity": 67,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Freeport",
+                    "iso_code": "BS",
+                    "countryName": "Bahamas",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 1506,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Bahrain",
+            "iso_code": "BH",
+            "popularity": 68,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Manama",
+                    "iso_code": "BH",
+                    "countryName": "Bahrain",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 3196,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Bangladesh",
+            "iso_code": "BD",
+            "popularity": 69,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Dhaka",
+                    "iso_code": "BD",
+                    "countryName": "Bangladesh",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 2389,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Barbados",
+            "iso_code": "BB",
+            "popularity": 70,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Bridgetown",
+                    "iso_code": "BB",
+                    "countryName": "Barbados",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 3299,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Bermuda",
+            "iso_code": "BM",
+            "popularity": 74,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Hamilton",
+                    "iso_code": "BM",
+                    "countryName": "Bermuda",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 2395,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Bolivia",
+            "iso_code": "BO",
+            "popularity": 76,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Sucre",
+                    "iso_code": "BO",
+                    "countryName": "Bolivia",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 1574,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "British Virgin Islands",
+            "iso_code": "VG",
+            "popularity": 81,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Road Town",
+                    "iso_code": "VG",
+                    "countryName": "British Virgin Islands",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 6463,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Brunei Darussalam",
+            "iso_code": "BN",
+            "popularity": 82,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Bandar Seri Begawan",
+                    "iso_code": "BN",
+                    "countryName": "Brunei Darussalam",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 1548,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Cayman Islands",
+            "iso_code": "KY",
+            "popularity": 89,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "George Town",
+                    "iso_code": "KY",
+                    "countryName": "Cayman Islands",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 2420,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Chile",
+            "iso_code": "CL",
+            "popularity": 92,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Santiago",
+                    "iso_code": "CL",
+                    "countryName": "Chile",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 256,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Egypt",
+            "iso_code": "EG",
+            "popularity": 109,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Cairo",
+                    "iso_code": "EG",
+                    "countryName": "Egypt",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 513,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Monaco",
+            "iso_code": "MC",
+            "popularity": 163,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Monaco",
+                    "iso_code": "MC",
+                    "countryName": "Monaco",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 4568,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Oman",
+            "iso_code": "OM",
+            "popularity": 178,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Salalah",
+                    "iso_code": "OM",
+                    "countryName": "Oman",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 26007,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Panama",
+            "iso_code": "PA",
+            "popularity": 181,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Panama City",
+                    "iso_code": "PA",
+                    "countryName": "Panama",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 1218,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Philippines",
+            "iso_code": "PH",
+            "popularity": 185,
+            "feature": [
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Manila",
+                    "iso_code": "PH",
+                    "countryName": "Philippines",
+                    "feature": [
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 1243,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Portugal",
+            "iso_code": "PT",
+            "popularity": 187,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Lisbon",
+                    "iso_code": "PT",
+                    "countryName": "Portugal",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 2929,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Puerto Rico",
+            "iso_code": "PR",
+            "popularity": 188,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "San Juan",
+                    "iso_code": "PR",
+                    "countryName": "Puerto Rico",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 3439,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "United Arab Emirates",
+            "iso_code": "AE",
+            "popularity": 225,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Dubai",
+                    "iso_code": "AE",
+                    "countryName": "United Arab Emirates",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 3049,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_PF"
+                            ],
+                            "protocol": "IKEV"
+                        },
+                        {
+                            "tags": [
+                                "TAG_PF"
+                            ],
+                            "protocol": "IPSEC"
+                        },
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_PF"
+                    ],
+                    "protocol": "IKEV"
+                },
+                {
+                    "tags": [
+                        "TAG_PF"
+                    ],
+                    "protocol": "IPSEC"
+                },
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        },
+        {
+            "name": "Serbia",
+            "iso_code": "RS",
+            "popularity": 240,
+            "feature": [
+                "p2p",
+                "OVPN_OBF",
+                "QR"
+            ],
+            "protocols": [
+                "IKEV",
+                "IPSEC",
+                "TCP",
+                "UDP",
+                "WireGuard"
+            ],
+            "cities": [
+                {
+                    "name": "Belgrade",
+                    "iso_code": "RS",
+                    "countryName": "Serbia",
+                    "feature": [
+                        "p2p",
+                        "OVPN_OBF",
+                        "QR"
+                    ],
+                    "id": 26004,
+                    "protocols": [
+                        "IKEV",
+                        "IPSEC",
+                        "TCP",
+                        "UDP",
+                        "WireGuard"
+                    ],
+                    "filteredProtocols": [
+                        {
+                            "tags": [
+                                "TAG_OVPN_OBF",
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        },
+                        {
+                            "tags": [
+                                "TAG_QR"
+                            ],
+                            "protocol": "UDP"
+                        }
+                    ]
+                }
+            ],
+            "filteredCities": [],
+            "filtered_protocols": [
+                {
+                    "tags": [
+                        "TAG_OVPN_OBF",
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                },
+                {
+                    "tags": [
+                        "TAG_QR"
+                    ],
+                    "protocol": "UDP"
+                }
+            ]
+        }
+    ]
+}
