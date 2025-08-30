@@ -14,8 +14,8 @@
 git clone https://github.com/twoonefour/purevpn-wg-auto-conf.git
 cd purevpn-wg-auto-conf
 pip install -r requirements.txt
-EXPORT PUREVPN_USERNAME=xxx@example.com
-EXPORT PUREVPN_PASSWORD=xxxxx
+export PUREVPN_USERNAME=xxx@example.com # 写你的purevpn登陆账号
+export PUREVPN_PASSWORD=xxxxx # 你的purevpn登陆密码
 python main.py
 ```
 
@@ -50,5 +50,8 @@ PersistentKeepalive=21
 |PUREVPN_COUNTRY_SLUG| vpn地区      | 否   |
 |     PUREVPN_CITY_ID             | VPN地区代号    | 否   |
 
-# 侵权声明
+
+# 声明
+本脚本是爬虫项目，请自行承担有可能来自purevpn的封号风险
+
 若purevpn方认为此脚本侵权，请联系我`emailto:twoonefour@voidval.com`删除
